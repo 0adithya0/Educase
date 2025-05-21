@@ -1,0 +1,71 @@
+.account-container {
+  background-color: #f8f8f8;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.account-heading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1f1f1f;
+}
+
+.account-card {
+  background-color: white;
+  border-top: 1px solid #eee;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.account-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.avatar-wrapper {
+  position: relative;
+  margin-right: 15px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.camera-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #6c00ff;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 4px;
+  line-height: 1;
+}
+
+.user-info h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+  color: #1f1f1f;
+}
+
+.user-info p {
+  font-size: 13px;
+  color: #7c7c7c;
+  margin: 4px 0 0 0;
+}
+
+.description {
+  font-size: 13px;
+  color: #7c7c7c;
+  line-height: 1.4;
+  border-top: 1px dashed #ddd;
+  padding-top: 10px;
+}
